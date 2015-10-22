@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB2DF631BD932580090EA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2DF621BD932580090EA00 /* main.m */; };
+		FDB2DF661BD932580090EA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2DF651BD932580090EA00 /* AppDelegate.m */; };
+		FDB2DF691BD932580090EA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2DF681BD932580090EA00 /* ViewController.m */; };
+		FDB2DF6C1BD932580090EA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB2DF6A1BD932580090EA00 /* Main.storyboard */; };
+		FDB2DF6E1BD932580090EA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB2DF6D1BD932580090EA00 /* Assets.xcassets */; };
+		FDB2DF711BD932580090EA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB2DF6F1BD932580090EA00 /* LaunchScreen.storyboard */; };
+		FDB2DF7C1BD932580090EA00 /* HAWK_MMMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2DF7B1BD932580090EA00 /* HAWK_MMMTests.m */; };
+		FDB2DF871BD932580090EA00 /* HAWK_MMMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2DF861BD932580090EA00 /* HAWK_MMMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB2DF781BD932580090EA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB2DF561BD932580090EA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB2DF5D1BD932580090EA00;
+			remoteInfo = HAWK_MMM;
+		};
+		FDB2DF831BD932580090EA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB2DF561BD932580090EA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB2DF5D1BD932580090EA00;
+			remoteInfo = HAWK_MMM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDB2DF5E1BD932580090EA00 /* HAWK_MMM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAWK_MMM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2DF621BD932580090EA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDB2DF641BD932580090EA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDB2DF651BD932580090EA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDB2DF671BD932580090EA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDB2DF681BD932580090EA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDB2DF6B1BD932580090EA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB2DF6D1BD932580090EA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB2DF701BD932580090EA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB2DF721BD932580090EA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB2DF771BD932580090EA00 /* HAWK_MMMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAWK_MMMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2DF7B1BD932580090EA00 /* HAWK_MMMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAWK_MMMTests.m; sourceTree = "<group>"; };
+		FDB2DF7D1BD932580090EA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB2DF821BD932580090EA00 /* HAWK_MMMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAWK_MMMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2DF861BD932580090EA00 /* HAWK_MMMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAWK_MMMUITests.m; sourceTree = "<group>"; };
+		FDB2DF881BD932580090EA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB2DF5B1BD932580090EA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF741BD932580090EA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF7F1BD932580090EA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB2DF551BD932580090EA00 = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF601BD932580090EA00 /* HAWK_MMM */,
+				FDB2DF7A1BD932580090EA00 /* HAWK_MMMTests */,
+				FDB2DF851BD932580090EA00 /* HAWK_MMMUITests */,
+				FDB2DF5F1BD932580090EA00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB2DF5F1BD932580090EA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF5E1BD932580090EA00 /* HAWK_MMM.app */,
+				FDB2DF771BD932580090EA00 /* HAWK_MMMTests.xctest */,
+				FDB2DF821BD932580090EA00 /* HAWK_MMMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB2DF601BD932580090EA00 /* HAWK_MMM */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF641BD932580090EA00 /* AppDelegate.h */,
+				FDB2DF651BD932580090EA00 /* AppDelegate.m */,
+				FDB2DF671BD932580090EA00 /* ViewController.h */,
+				FDB2DF681BD932580090EA00 /* ViewController.m */,
+				FDB2DF6A1BD932580090EA00 /* Main.storyboard */,
+				FDB2DF6D1BD932580090EA00 /* Assets.xcassets */,
+				FDB2DF6F1BD932580090EA00 /* LaunchScreen.storyboard */,
+				FDB2DF721BD932580090EA00 /* Info.plist */,
+				FDB2DF611BD932580090EA00 /* Supporting Files */,
+			);
+			path = HAWK_MMM;
+			sourceTree = "<group>";
+		};
+		FDB2DF611BD932580090EA00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF621BD932580090EA00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB2DF7A1BD932580090EA00 /* HAWK_MMMTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF7B1BD932580090EA00 /* HAWK_MMMTests.m */,
+				FDB2DF7D1BD932580090EA00 /* Info.plist */,
+			);
+			path = HAWK_MMMTests;
+			sourceTree = "<group>";
+		};
+		FDB2DF851BD932580090EA00 /* HAWK_MMMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2DF861BD932580090EA00 /* HAWK_MMMUITests.m */,
+				FDB2DF881BD932580090EA00 /* Info.plist */,
+			);
+			path = HAWK_MMMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB2DF5D1BD932580090EA00 /* HAWK_MMM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2DF8B1BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMM" */;
+			buildPhases = (
+				FDB2DF5A1BD932580090EA00 /* Sources */,
+				FDB2DF5B1BD932580090EA00 /* Frameworks */,
+				FDB2DF5C1BD932580090EA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAWK_MMM;
+			productName = HAWK_MMM;
+			productReference = FDB2DF5E1BD932580090EA00 /* HAWK_MMM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB2DF761BD932580090EA00 /* HAWK_MMMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2DF8E1BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMMTests" */;
+			buildPhases = (
+				FDB2DF731BD932580090EA00 /* Sources */,
+				FDB2DF741BD932580090EA00 /* Frameworks */,
+				FDB2DF751BD932580090EA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB2DF791BD932580090EA00 /* PBXTargetDependency */,
+			);
+			name = HAWK_MMMTests;
+			productName = HAWK_MMMTests;
+			productReference = FDB2DF771BD932580090EA00 /* HAWK_MMMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB2DF811BD932580090EA00 /* HAWK_MMMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2DF911BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMMUITests" */;
+			buildPhases = (
+				FDB2DF7E1BD932580090EA00 /* Sources */,
+				FDB2DF7F1BD932580090EA00 /* Frameworks */,
+				FDB2DF801BD932580090EA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB2DF841BD932580090EA00 /* PBXTargetDependency */,
+			);
+			name = HAWK_MMMUITests;
+			productName = HAWK_MMMUITests;
+			productReference = FDB2DF821BD932580090EA00 /* HAWK_MMMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB2DF561BD932580090EA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marco Schmitt";
+				TargetAttributes = {
+					FDB2DF5D1BD932580090EA00 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3DTUPF24U6;
+					};
+					FDB2DF761BD932580090EA00 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3DTUPF24U6;
+						TestTargetID = FDB2DF5D1BD932580090EA00;
+					};
+					FDB2DF811BD932580090EA00 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3DTUPF24U6;
+						TestTargetID = FDB2DF5D1BD932580090EA00;
+					};
+				};
+			};
+			buildConfigurationList = FDB2DF591BD932580090EA00 /* Build configuration list for PBXProject "HAWK_MMM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB2DF551BD932580090EA00;
+			productRefGroup = FDB2DF5F1BD932580090EA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB2DF5D1BD932580090EA00 /* HAWK_MMM */,
+				FDB2DF761BD932580090EA00 /* HAWK_MMMTests */,
+				FDB2DF811BD932580090EA00 /* HAWK_MMMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB2DF5C1BD932580090EA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2DF711BD932580090EA00 /* LaunchScreen.storyboard in Resources */,
+				FDB2DF6E1BD932580090EA00 /* Assets.xcassets in Resources */,
+				FDB2DF6C1BD932580090EA00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF751BD932580090EA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF801BD932580090EA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB2DF5A1BD932580090EA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2DF691BD932580090EA00 /* ViewController.m in Sources */,
+				FDB2DF661BD932580090EA00 /* AppDelegate.m in Sources */,
+				FDB2DF631BD932580090EA00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF731BD932580090EA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2DF7C1BD932580090EA00 /* HAWK_MMMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2DF7E1BD932580090EA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2DF871BD932580090EA00 /* HAWK_MMMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB2DF791BD932580090EA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB2DF5D1BD932580090EA00 /* HAWK_MMM */;
+			targetProxy = FDB2DF781BD932580090EA00 /* PBXContainerItemProxy */;
+		};
+		FDB2DF841BD932580090EA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB2DF5D1BD932580090EA00 /* HAWK_MMM */;
+			targetProxy = FDB2DF831BD932580090EA00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB2DF6A1BD932580090EA00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB2DF6B1BD932580090EA00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB2DF6F1BD932580090EA00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB2DF701BD932580090EA00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB2DF891BD932580090EA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDB2DF8A1BD932580090EA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2DF8C1BD932580090EA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HAWK_MMM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDB2DF8D1BD932580090EA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HAWK_MMM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDB2DF8F1BD932580090EA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HAWK_MMMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HAWK_MMM.app/HAWK_MMM";
+			};
+			name = Debug;
+		};
+		FDB2DF901BD932580090EA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HAWK_MMMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HAWK_MMM.app/HAWK_MMM";
+			};
+			name = Release;
+		};
+		FDB2DF921BD932580090EA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HAWK_MMMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HAWK_MMM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FDB2DF931BD932580090EA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HAWK_MMMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAWK.HAWK-MMMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HAWK_MMM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB2DF591BD932580090EA00 /* Build configuration list for PBXProject "HAWK_MMM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2DF891BD932580090EA00 /* Debug */,
+				FDB2DF8A1BD932580090EA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB2DF8B1BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2DF8C1BD932580090EA00 /* Debug */,
+				FDB2DF8D1BD932580090EA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB2DF8E1BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2DF8F1BD932580090EA00 /* Debug */,
+				FDB2DF901BD932580090EA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDB2DF911BD932580090EA00 /* Build configuration list for PBXNativeTarget "HAWK_MMMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2DF921BD932580090EA00 /* Debug */,
+				FDB2DF931BD932580090EA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB2DF561BD932580090EA00 /* Project object */;
+}
